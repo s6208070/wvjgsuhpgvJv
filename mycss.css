@@ -1,0 +1,47 @@
+body {
+    animation: bgcolor 6s infinite; 
+}
+  
+  @keyframes bgcolor {
+      0% {
+          background-color: #45a3e5
+      }
+  
+      25% {
+          background-color: #66bf39
+      }
+  
+      50% {
+          background-color: #eb670f
+      }
+  
+      75% {
+          background-color: #f35
+      }
+  
+      90% {
+          background-color: #864cbf
+      }
+
+      100% {
+        background-color: #45a3e5
+      }
+  }
+
+.w3-blue{
+    color: #fff!important;
+    background-color: #2196F3!important;
+}
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
